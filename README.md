@@ -1,18 +1,48 @@
-## Getting Started
+# Pac-Man Game
+A simple Pac-Man game built in Java using the Swing library. Navigate Pac-Man through the maze, collect food, and avoid ghosts. The game ends when you lose all your lives.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<img src ="https://github.com/user-attachments/assets/8b23211c-f64d-43e6-9f93-9b11b814a4f2" width="500">
 
-## Folder Structure
+### Prerequisites
+- **Java JDK**: Version 8 or later.
+- **Development Environment**: VS Code, IntelliJ IDEA, Eclipse, or any Java-compatible IDE.
 
-The workspace contains two folders by default, where:
+## Getting Started  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Clone the Repository  
+Run the following commands to clone and navigate into the project:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```bash  
+git clone https://github.com/itsjomon/pacman-game.git
+```
+```bash
+cd pacman-game
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+<p align ="center">-or-</p>
 
-## Dependency Management
+### Fork the Repository  
+1. Fork this repository on GitHub.  
+2. Clone your fork.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash  
+git clone https://github.com/your-username/your-forked-repository-name.git
+```
+```bash
+cd your-forked-repository-name    
+```
+
+Set Up the Assets: Place all required images (e.g., `wall.png`, `pacmanUp.png`, etc.) in the `assets` directory located in the project root.
+
+Compile and Run: Compile and run the program using your IDE or terminal: `javac App.java`  `java App`
+
+## Controls
+- **Arrow Keys:** Move Pac-Man (Up, Down, Left, Right).
+- **Restart:** After Game Over, press any key to restart.
+
+> [!NOTE]
+> - Ensure all image files are correctly placed in the `assets` directory.
+> - The ghosts currently move randomly.
+
+## 🌟 *Don’t Forget to Star!*
+If you find this project useful, please consider giving it a star ⭐. It helps others discover it too!
